@@ -19,3 +19,6 @@ if (password_verify($password, $hashedPassword)) {
 
 
 <!-- php generate_password_hash.php -->
+
+<!-- INSERT INTO users (name, email, password, role, status) 
+VALUES ('Admin', 'tanmoyanik22@gmail.com', '$2y$10$1j5nXtkU/.ouVbaFg3jFeuWlBbUcRjtMYXmGA.t/fchS2bkEzOpoG', 'admin', 'approved'); -->
